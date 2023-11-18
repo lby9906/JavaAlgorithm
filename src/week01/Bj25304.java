@@ -5,18 +5,13 @@ import java.util.Scanner;
 public class Bj25304 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-
-        int sum = 0;
-        int num = 0;
-        int product;
-        int count;
         int total = 0;
 
-        sum = in.nextInt();
-        num = in.nextInt();
+        int sum = in.nextInt();
+        int num = in.nextInt();
         for (int i = 0; i < num; i++) {
-            product = in.nextInt();
-            count = in.nextInt();
+            int product = in.nextInt();
+            int count = in.nextInt();
             total += (product * count);
         }
         if (sum == total) {
