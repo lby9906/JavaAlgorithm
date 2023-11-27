@@ -11,12 +11,10 @@ public class bj11720 {
         int num = in.nextInt();
 
         System.out.println("원하는 숫자를 입력하세요 : ");
-        String[] arr = new String[num];
         String str = in.next();
         String[] arrSplit = str.split("");
         for (int i=0; i< arrSplit.length; i++) {
-            arr[i] = arrSplit[i];
-            int change = Integer.parseInt(arr[i]);
+            int change = Integer.parseInt(arrSplit[i]);
             sum += change;
         }
         System.out.println(sum);
