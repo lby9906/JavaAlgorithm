@@ -1,7 +1,5 @@
 package week06;
 
-import java.util.Arrays;
-
 public class pg12935 {
 
     public int[] solution(int[] arr) {
@@ -13,7 +11,7 @@ public class pg12935 {
         }
         for (int i : arr) {
             if (min > i){
-            min = i;
+                min = i;
             }
         }
         for (int a : arr) {

@@ -5,9 +5,7 @@ public class pg12948 {
     public String solution(String phone_number) {
         String endNumber = "";
         String str = "";
-        for (int i=phone_number.length()-1; i>0; i--) {
-            endNumber = phone_number.substring(phone_number.length()-4);
-        }
+        endNumber = phone_number.substring(phone_number.length()-4);
         for (int i=0; i<phone_number.length()-endNumber.length(); i++) {
             str += "*";
         }
