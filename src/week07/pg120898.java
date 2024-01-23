@@ -3,8 +3,7 @@ package week07;
 public class pg120898 {
 
     public int solution(String message) {
-        int answer = message.length()*2;
-        return answer;
+        return message.length()*2;
     }
 
     public static void main(String[] args) {
